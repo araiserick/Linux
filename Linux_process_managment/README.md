@@ -18,7 +18,7 @@
 Ответ:
 
 ```bash
-ls /tmp /tmp1 1>/tmp/file_list 2>/tmp/file_errors
+ls /tmp /tmp1 1>/tmp/file_list 2>>/tmp/file_errors
 ```
 
 ![](./images/1.jpg)
