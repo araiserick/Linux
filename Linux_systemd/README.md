@@ -17,7 +17,7 @@
 Ответ:
 
 ```bash
-journalctl --since "yesterday" --until "today" | grep -i error
+journalctl -k --since "yesterday" --until "today" --priority=3
 ```
 
 ### Задача №3
